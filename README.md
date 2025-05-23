@@ -27,7 +27,7 @@ make
 ## 실행 방법
 ### 서버 (라즈베리파이에서)
 ```sh
-sudo ./gpio_server_daemon &
+sudo ./gpio_server_daemon 
 ```
 
 ### 클라이언트 (우분투에서)
