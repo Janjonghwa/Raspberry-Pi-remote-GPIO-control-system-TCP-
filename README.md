@@ -1,4 +1,4 @@
-# Raspberry Pi 원격 GPIO 제어 시스템 (TCP)
+ Raspberry Pi 원격 GPIO 제어 시스템 (TCP)
 
 ## 프로젝트 개요
 - Raspberry Pi 4를 서버(데몬)로, Ubuntu를 클라이언트로 하여 TCP로 원격에서 LED, 부저, 조도센서, 7-Segment, 버튼을 제어하는 시스템입니다.
@@ -62,12 +62,6 @@ sudo ./gpio_server_daemon
 - 클라이언트/서버 간 통신은 평문(TCP)으로, 네트워크 보안 필요시 SSH 터널 등 권장
 - 동적 라이브러리 교체 시 서버 재시작 필요
 
-## 제출 방법
-- 전체 프로젝트 폴더를 압축하여 LMS에 업로드
-- 파일명: `AdvancedPracticeEvaluation(LinuxProgramming)_이름.zip`
-
-## 문의
-- 코드/구현 관련 문의: 담당 조교 또는 교수님께 문의 
 
 ## 클라이언트 UI 예시
 
